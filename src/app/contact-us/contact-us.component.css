@@ -1,0 +1,66 @@
+.contact-us-container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .company-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .contact-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .contact-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .contact-card {
+    width: 30%;
+  }
+  
+  .mat-icon {
+    margin-right: 10px;
+  }
+  
+  .form-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-width {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  

@@ -1,0 +1,70 @@
+<div class="contact-us-container mat-elevation-z8">
+  <div class="contact-header">
+    <img src="assets/logo1.jpeg" alt="Company Logo" class="company-logo" />
+    <h2 class="contact-title">Get in Touch with Us</h2>
+    <p class="contact-description">
+      We are here to assist you with any inquiries or issues regarding our
+      Parking System. Reach out to us via the contact form below or through the
+      provided contact information.
+    </p>
+  </div>
+
+  <div class="contact-details">
+    <mat-card class="contact-card">
+      <mat-card-header>
+        <mat-icon>location_on</mat-icon>
+        <mat-card-title>Our Address</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>123 Parking Avenue,</p>
+        <p>Solapur, Maharashtra</p>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="contact-card">
+      <mat-card-header>
+        <mat-icon>phone</mat-icon>
+        <mat-card-title>Call Us</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>+91 8600882682</p>
+        <p>+91 8600882682</p>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="contact-card">
+      <mat-card-header>
+        <mat-icon>email</mat-icon>
+        <mat-card-title>Email Us</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>infoparkingsystem.com</p>
+        <p>supportparkingsystem.com</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <h3 class="form-title">Contact Form</h3>
+  <form (ngSubmit)="onSubmit()" class="contact-form">
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Your Name</mat-label>
+      <input matInput name="name" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Your Email</mat-label>
+      <input matInput name="email" type="email" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Your Message</mat-label>
+      <textarea matInput name="message" rows="5" required></textarea>
+    </mat-form-field>
+
+    <div class="button-container">
+      <button mat-raised-button color="primary" type="submit">
+        Send Message
+      </button>
+    </div>
+  </form>
+</div>

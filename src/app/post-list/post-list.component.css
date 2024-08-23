@@ -1,0 +1,89 @@
+.post-list-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+  }
+  
+  .post-section, .filter-section {
+    flex: 1;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+  }
+  
+  .post-section mat-card {
+    margin-bottom: 20px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .category-filters {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  h1{
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  
+  .post-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  mat-card-header {
+    background-color: #f1b6b6;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+  }   
+  
+  mat-card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  mat-card-subtitle {
+    font-size: 0.875rem;
+    color: #34660a;
+  }
+  
+  mat-card-content {
+    padding: 16px;
+  }
+  
+  mat-card-actions {
+    padding: 16px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  mat-raised-button {
+    font-size: 0.875rem;
+  }
+  
+  mat-raised-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .checbox-label {
+    cursor: pointer;
+    font-weight: bold; /* Ensure the font is bold */
+    font-size: 1.2rem; /* Increase the font size */
+  }
+  
